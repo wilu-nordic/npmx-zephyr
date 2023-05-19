@@ -1,0 +1,22 @@
+# The west manifest file (west.yml) for npmx-zephyr.
+
+manifest:
+  defaults:
+    remote: ncs
+
+  remotes:
+    # nRF Connect SDK base URL.
+    - name: ncs
+      url-base: https://github.com/nrfconnect
+    - name: zephyrproject
+      url-base: https://github.com/zephyrproject-rtos
+  projects:
+    - name: zephyr
+      repo-path: sdk-zephyr
+      revision: 72190c87d49c1039fe2159ab355504ea3e7261a5
+      import: true
+    - name: npmx
+      repo-path: npmx
+      path: modules/npmx
+      revision: ab94f8119190921e568303cc5dbf7f49f0aec502
+      remote: ncs
