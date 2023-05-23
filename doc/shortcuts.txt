@@ -1,0 +1,16 @@
+.. |NCS| replace:: nRF Connect SDK
+
+.. ### Config shortcuts
+
+.. |config| replace:: See `Configuring your application`_ for information about how to permanently or temporarily change the configuration.
+
+.. |connect_kit| replace:: Connect the kit to the computer using a USB cable.
+   The kit is assigned a COM port (Windows) or ttyACM device (Linux), which is visible in the Device Manager.
+
+.. |connect_terminal| replace:: Connect to the kit with a terminal emulator (for example, PuTTY).
+   See `How to connect with PuTTY`_ for the required settings.
+
+.. ### VSC shortcuts
+
+.. |VSC| replace:: Visual Studio Code
+.. |nRFVSC| replace:: nRF Connect for VS Code extension
